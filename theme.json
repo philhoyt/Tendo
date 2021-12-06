@@ -1,0 +1,134 @@
+{
+	"version": 1,
+	"settings": {
+		"color": {
+			"gradients": [],
+			"link": true,
+			"palette": [
+				{
+					"slug": "black",
+					"color": "#000000",
+					"name": "Black"
+				},
+				{
+					"slug": "dark-gray",
+					"color": "#28303D",
+					"name": "Dark Gray"
+				},
+				{
+					"slug": "gray",
+					"color": "#39414D",
+					"name": "Gray"
+				},
+				{
+					"slug": "green",
+					"color": "#D1E4DD",
+					"name": "Green"
+				},
+				{
+					"slug": "blue",
+					"color": "#D1DFE4",
+					"name": "Blue"
+				},
+				{
+					"slug": "purple",
+					"color": "#D1D1E4",
+					"name": "Purple"
+				},
+				{
+					"slug": "red",
+					"color": "#E4D1D1",
+					"name": "Red"
+				},
+				{
+					"slug": "orange",
+					"color": "#E4DAD1",
+					"name": "Orange"
+				},
+				{
+					"slug": "yellow",
+					"color": "#EEEADD",
+					"name": "Yellow"
+				},
+				{
+					"slug": "white",
+					"color": "#FFFFFF",
+					"name": "White"
+				}
+			]
+		},
+		"spacing": {
+			"customPadding": true
+		},
+		"typography": {
+			"customLineHeight": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "\"Courier New\", Courier, \"Lucida Sans Typewriter\", \"Lucida Typewriter\", monospace",
+					"slug": "courier-new"
+				},
+				{
+					"fontFamily": "Arial, \"Helvetica Neue\", Helvetica, sans-serif",
+					"slug": "arial-helvetica"
+				}
+			],
+			"fontSizes": []
+		},
+		"layout": {
+			"contentSize": "840px",
+			"wideSize": "1100px"
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--courier-new)",
+			"lineHeight": "1.7"
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "inherit"
+				}
+			}
+		},
+		"blocks": {
+			"radius": "0px",
+			"core/button": {
+				"border": {
+					"width": "4px",
+					"radius": "0px"
+				}
+			}
+		}
+	}
+}
