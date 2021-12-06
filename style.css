@@ -5,7 +5,7 @@ Author: Phil Hoyt
 Author URI: http://philhoyt.com/
 Description:
 Tags: full-site-editing, blog
-Version: 1.0.0
+Version: 0.1.0
 Requires at least: 5.0
 Tested up to: 5.8
 Requires PHP: 7.0
@@ -33,7 +33,3 @@ html, body {
 *:focus:not(:focus-visible) {
 	outline: none;
 }
-
-/* ------------------------------------------- */
-/*	Layout
-/* ------------------------------------------- */
