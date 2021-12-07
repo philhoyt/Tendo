@@ -1,5 +1,14 @@
 {
 	"version": 1,
+	"customTemplates": [
+		{
+			"name": "page-no-title",
+			"title": "Page (No Title)",
+			"postTypes": [
+				"page"
+			]
+		}
+	],
 	"settings": {
 		"color": {
 			"gradients": [],
@@ -134,5 +143,21 @@
 				}
 			}
 		}
-	}
+	},
+	"templateParts": [
+		{
+			"name": "header",
+			"title": "Header",
+			"area": "header"
+		},
+		{
+			"name": "footer",
+			"title": "Footer",
+			"area": "footer"
+		},
+		{
+			"name": "list-query",
+			"title": "List Query"
+		}
+	]
 }
