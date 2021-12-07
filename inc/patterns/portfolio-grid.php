@@ -33,21 +33,21 @@ return array(
 	
 	<!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:image {"id":227,"sizeSlug":"large","linkDestination":"none"} -->
-	<figure class="wp-block-image size-large"><img src="http://tendo.local/wp-content/uploads/2021/10/grid-1-830x1024.jpg" alt="" class="wp-image-227"/></figure>
+	<figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/grid-1.jpg" alt="' . esc_attr__( 'Holding Balloons captured on Instant Film', 'tendo' ) . '"/></figure>
 	<!-- /wp:image -->
 	
 	<!-- wp:image {"id":31,"sizeSlug":"large","linkDestination":"none"} -->
-	<figure class="wp-block-image size-large"><img src="http://tendo.local/wp-content/uploads/2021/08/andrej-lisakov-f12g2yxcp18-unsplash-768x1024.jpg" alt="" class="wp-image-31"/></figure>
+	<figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/grid-2.jpg" alt="' . esc_attr__( 'Graffiti X', 'tendo' ) . '"/></figure>
 	<!-- /wp:image --></div>
 	<!-- /wp:column -->
 	
 	<!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:image {"id":28,"sizeSlug":"large","linkDestination":"none"} -->
-	<figure class="wp-block-image size-large"><img src="http://tendo.local/wp-content/uploads/2021/08/martin-adams-ICFXCD0VBvI-unsplash-1024x683.jpg" alt="" class="wp-image-28"/></figure>
+	<figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/grid-3.jpg" alt="' . esc_attr__( 'Red Cloud', 'tendo' ) . '"/></figure>
 	<!-- /wp:image -->
 	
 	<!-- wp:image {"id":29,"sizeSlug":"large","linkDestination":"none"} -->
-	<figure class="wp-block-image size-large"><img src="http://tendo.local/wp-content/uploads/2021/08/nick-fewings-ka7REB1AJl4-unsplash-683x1024.jpg" alt="" class="wp-image-29"/></figure>
+	<figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/images/grid-4.jpg" alt="' . esc_attr__( 'Graffiti of Stick Figure and Heart', 'tendo' ) . '"/></figure>
 	<!-- /wp:image --></div>
 	<!-- /wp:column --></div>
 	<!-- /wp:columns -->',
