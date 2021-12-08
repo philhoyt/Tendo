@@ -179,6 +179,12 @@
 					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)",
 					"fontWeight": "700"
 				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)",
+					"fontWeight": "700"
+				}
 			}
 		}
 	},

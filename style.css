@@ -33,3 +33,7 @@ html, body {
 *:focus:not(:focus-visible) {
 	outline: none;
 }
+
+.wp-block-site-title a {
+    text-decoration: none;
+}
