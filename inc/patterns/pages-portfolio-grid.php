@@ -1,7 +1,7 @@
 <?php
 return array(
-	'title'      => __( 'Portfolio Grid', 'tendo' ),
-	'categories' => array( 'tendo-general' ),
+	'title'      => __( 'Pages - Portfolio Grid', 'tendo' ),
+	'categories' => array( 'tendo-pages' ),
 	'content'    => '<!-- wp:columns {"align":"wide"} -->
 	<div class="wp-block-columns alignwide"><!-- wp:column -->
 	<div class="wp-block-column"><!-- wp:heading -->

@@ -9,6 +9,7 @@
 function tendo_register_block_patterns() {
 	$block_pattern_categories = array(
 		'tendo-general' => array( 'label' => __( 'Tendo General', 'tendo' ) ),
+		'tendo-pages' => array( 'label' => __( 'Tendo Pages', 'tendo' ) ),
 		'tendo-query'   => array( 'label' => __( 'Tendo Blogs', 'tendo' ) ),
 	);
 
@@ -26,7 +27,8 @@ function tendo_register_block_patterns() {
 		'blog-featured',
 		'blog-grid',
 		'blog-list',
-		'portfolio-grid'
+		'pages-portfolio-grid',
+		'pages-links'
 	);
 
 	/**
