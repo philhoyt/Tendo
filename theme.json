@@ -98,7 +98,28 @@
 					"slug": "arial-helvetica"
 				}
 			],
-			"fontSizes": []
+			"fontSizes": [
+				{
+					"name": "Normal",
+					"size": "1.125rem",
+					"slug": "normal"
+				},
+				{
+					"name": "Medium",
+					"size": "1.75rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "clamp(1.75rem, 3vw, 2.25rem)",
+					"slug": "large"
+				},
+				{
+					"name": "Huge",
+					"size": "clamp(2.5rem, 4vw, 3rem)",
+					"slug": "huge"
+				}
+			]
 		},
 		"layout": {
 			"contentSize": "840px",
