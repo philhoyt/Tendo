@@ -201,7 +201,8 @@
 		},
 		{
 			"name": "list-query",
-			"title": "List Query"
+			"title": "List Query",
+			"area": "loop"
 		}
 	]
 }
