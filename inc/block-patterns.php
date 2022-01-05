@@ -8,6 +8,7 @@
  */
 function tendo_register_block_patterns() {
 	$block_pattern_categories = array(
+		'tendo-headers' => array( 'label' => __( 'Tendo Headers', 'tendo' ) ),
 		'tendo-general' => array( 'label' => __( 'Tendo General', 'tendo' ) ),
 		'tendo-pages' => array( 'label' => __( 'Tendo Pages', 'tendo' ) ),
 		'tendo-query'   => array( 'label' => __( 'Tendo Blogs', 'tendo' ) ),
@@ -27,8 +28,11 @@ function tendo_register_block_patterns() {
 		'blog-featured',
 		'blog-grid',
 		'blog-list',
-		'pages-portfolio-grid',
-		'pages-links'
+		'general-media-and-text-with-button',
+		'general-portfolio-grid',
+		'headers-logo-menu-social',
+		'headers-utility',
+		'pages-links',
 	);
 
 	/**
