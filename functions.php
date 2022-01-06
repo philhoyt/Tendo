@@ -22,5 +22,8 @@ add_action( 'wp_enqueue_scripts', 'tendo_scripts' );
 
 add_filter( 'excerpt_length', function( $length ) { return 20; } );
 
+// Block Styles.
+require get_template_directory() . '/inc/block-styles.php';
+
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';

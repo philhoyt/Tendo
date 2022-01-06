@@ -5,7 +5,7 @@ Author: Phil Hoyt
 Author URI: http://philhoyt.com/
 Description: Tendo is a Clean and Minimalist theme built for the Full Site Editing features included in WordPress 5.9. Take advantage of Global Style and Template editing to customize the look and feel of Tendo to meet match your own unique needs. Use block patterns to better display your content with more to come in future iterations. You must have the Gutenberg plugin active to use Tendo before WordPress 5.9 is released.
 Tags: custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing
-Version: 1.2
+Version: 1.3
 Requires at least: 5.8
 Tested up to: 5.8
 Requires PHP: 7.0
@@ -27,7 +27,6 @@ html, body {
 *:before,
 *:after {
 	-webkit-box-sizing: inherit;
-	-moz-box-sizing: inherit;
 	box-sizing: inherit;
 }
 
@@ -37,4 +36,12 @@ html, body {
 
 .wp-block-site-title a {
     text-decoration: none;
+}
+
+.wp-block-image.is-style-tendo-image-arched img {
+	border-radius: 50% 50% 0 0;
+}
+
+.wp-block-image.is-style-tendo-image-dropshadow img {
+	box-shadow: 1px 1px 5px #b9b9b9;
 }
