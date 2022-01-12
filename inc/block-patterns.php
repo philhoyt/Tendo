@@ -28,6 +28,7 @@ function tendo_register_block_patterns() {
 		'blog-featured',
 		'blog-grid',
 		'blog-list',
+		'blog-single-column',
 		'general-media-and-text-with-button',
 		'general-portfolio-grid',
 		'headers-logo-menu-social',

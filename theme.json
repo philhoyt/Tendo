@@ -198,11 +198,6 @@
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"
-		},
-		{
-			"name": "list-query",
-			"title": "List Query",
-			"area": "loop"
 		}
 	]
 }
