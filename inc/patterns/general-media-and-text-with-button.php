@@ -29,7 +29,7 @@ return array(
 	<!-- /wp:buttons --></div>
 	<!-- /wp:group -->
 	
-	<!-- wp:spacer {"height":"16px"} -->
+	<!-- wp:spacer {"height":16} -->
 	<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer --></div>
 	<!-- /wp:group --></div></div>

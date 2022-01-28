@@ -4,7 +4,7 @@ return array(
 	'categories' => array( 'tendo-query' ),
 	'content'    => '<!-- wp:query {"queryId":9,"query":{"perPage":"9","pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"align":"wide"} -->
 	<div class="wp-block-query alignwide"><!-- wp:post-template -->
-	<!-- wp:spacer {"height":"16px"} -->
+	<!-- wp:spacer {"height":16} -->
 	<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 	

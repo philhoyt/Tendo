@@ -9,7 +9,7 @@ return array(
 	
 	<!-- wp:post-excerpt {"moreText":"\u003cstrong\u003eread more\u003c/strong\u003e"} /-->
 	
-	<!-- wp:spacer {"height":"32px"} -->
+	<!-- wp:spacer {"height":32} -->
 	<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 	
@@ -37,7 +37,7 @@ return array(
 	<!-- wp:post-terms {"term":"post_tag"} /--></div>
 	<!-- /wp:group -->
 	
-	<!-- wp:spacer {"height":"32px"} -->
+	<!-- wp:spacer {"height":32} -->
 	<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 	
@@ -45,7 +45,7 @@ return array(
 	<hr class="wp-block-separator is-style-wide"/>
 	<!-- /wp:separator -->
 	
-	<!-- wp:spacer {"height":"32px"} -->
+	<!-- wp:spacer {"height":32} -->
 	<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 	

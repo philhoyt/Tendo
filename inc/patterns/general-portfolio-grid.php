@@ -16,7 +16,7 @@ return array(
 	<p>Nam imperdiet nunc id erat maximus, ac pharetra lorem scelerisq ue.</p>
 	<!-- /wp:paragraph -->
 	
-	<!-- wp:spacer {"height":"32px"} -->
+	<!-- wp:spacer {"height":32} -->
 	<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 	
