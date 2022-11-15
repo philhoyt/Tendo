@@ -1,6 +1,23 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
+	"customTemplates": [
+		{
+			"name": "blank",
+			"title": "Blank",
+			"postTypes": [
+				"page",
+				"post"
+			]
+		},
+		{
+			"name": "page-no-title",
+			"title": "Page (No Title)",
+			"postTypes": [
+				"page"
+			]
+		}
+	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -137,9 +154,13 @@
 					"slug": "xx-large"
 				}
 			]
-		}
+		},
+		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"spacing": {
+			"blockGap": "1rem"
+		},
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--base)",
 			"fontFamily": "var(--wp--preset--font-family--courier-new)",
@@ -227,6 +248,30 @@
 					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)",
 					"fontWeight": "700"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--large)",
+					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)",
+					"fontWeight": "700"
+				}
+			},
+			"core/navigation": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textTransform": "lowercase",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"textDecoration": "none"
+						}
+					}
 				}
 			}
 		}
