@@ -294,6 +294,13 @@
 				}
 			},
 			"core/post-title": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--contrast)"
+						}
+					}
+				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)",
