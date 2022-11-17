@@ -206,7 +206,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "inherit"
+					"text": "var(--wp--preset--color--primary)"
 				},
 				":hover": {
 					"typography": {
@@ -231,9 +231,19 @@
 				}
 			},
 			"button": {
+				"spacing": {
+					"padding": {
+						"top": "12px",
+						"right": "20px",
+						"bottom": "12px",
+						"left": "20px"
+					}
+				},
 				"border": {
-					"width": "4px",
-					"radius": "0px"
+					"width": "0",
+					"radius": "0px",
+					"style": "solid",
+					"color": "var(--wp--preset--color--contrast)"
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--arial-helvetica)",
