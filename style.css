@@ -3,45 +3,20 @@ Theme Name: Tendo
 Theme URI: http://philhoyt.com/projects/tendo/
 Author: Phil Hoyt
 Author URI: http://philhoyt.com/
-Description: Tendo is a Clean and Minimalist theme built for the Full Site Editing features included in WordPress 5.9. Take advantage of Global Style and Template editing to customize the look and feel of Tendo to meet match your own unique needs. Use block patterns to better display your content with more to come in future iterations. You must have the Gutenberg plugin active to use Tendo before WordPress 5.9 is released.
+Description: Tendo is a Clean and Minimalist theme built for the Site Editing features included in WordPress. Take advantage of Global Style and Template editing to customize the look and feel of Tendo to meet match your own unique needs. Use block patterns to better display your content with more to come in future iterations.
 Tags: custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing
-Version: 1.4.1
-Requires at least: 5.8
-Tested up to: 5.8
-Requires PHP: 7.0
+Version: 1.6.0
+Requires at least: 6.1
+Tested up to: 6.1
+Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: tendo
+*/
 
-/* ------------------------------------------- */
-/*	Document Setup
-/* ------------------------------------------- */
-
-html, body {
+hr.wp-block-separator.is-style-tendo-striped {
+	background-image: linear-gradient(45deg, var(--wp--preset--color--primary) 25%, #ffffff 25%, #ffffff 50%, var(--wp--preset--color--primary) 50%, var(--wp--preset--color--primary) 75%, #ffffff 75%, #ffffff 100%);
+	background-size: 56.57px 56.57px;
 	border: none;
-	margin: 0;
-	padding: 0;
-}
-
-*,
-*:before,
-*:after {
-	-webkit-box-sizing: inherit;
-	box-sizing: inherit;
-}
-
-*:focus:not(:focus-visible) {
-	outline: none;
-}
-
-.wp-block-site-title a {
-    text-decoration: none;
-}
-
-.wp-block-image.is-style-tendo-image-arched img {
-	border-radius: 50% 50% 0 0;
-}
-
-.wp-block-image.is-style-tendo-image-dropshadow img {
-	box-shadow: 1px 1px 5px #b9b9b9;
+	height: 0.5rem;
 }
