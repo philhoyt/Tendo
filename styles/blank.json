@@ -1,7 +1,7 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Chill",
+	"title": "Blank",
 	"settings": {
 		"color": {
 			"palette": [
@@ -16,17 +16,17 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#79A7EA",
+					"color": "#899499",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#50586C",
+					"color": "#36454F",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#DCE2F0",
+					"color": "#E5E4E2",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				}
@@ -34,17 +34,11 @@
 		}
 	},
 	"styles": {
+		"color": {
+			"text": "var(--wp-preset--color--contrast)",
+			"background": "var(--wp--preset--color--base)"
+		},
 		"elements": {
-			"link": {
-				"color": {
-					"text": "var(--wp--preset--color--contrast)"
-				},
-				":active": {
-					"color": {
-						"text": "var(--wp--preset--color--contrast)"
-					}
-				}
-			},
 			"button": {
 				"color": {
 					"text": "var(--wp--preset--color--base)",
